@@ -16,4 +16,32 @@
 		/>
 
 
+	<cffunction 
+		name="onError"
+		access="public"
+		returntype="boolean"
+		output="true"
+		hint="I handle any errors that have bubbled up through the application.">
+
+		<!--- Define arguments. --->
+		<cfargument
+			name="error"
+			type="any"
+			required="true"
+			hint="I am the error object / exception."
+			/>
+
+		<p>
+			Oops, something went wrong.
+		</p>
+
+		<!--- Stop any further processing. --->
+		<cfabort />
+
+		<!--- Return True to override the error condition. --->
+		<cfreturn true />
+
+	</cffunction>
+
+
 </cfcomponent>

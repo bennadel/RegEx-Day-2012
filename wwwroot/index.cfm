@@ -1,13 +1,36 @@
 
+<!--- Reset the output buffer. --->
+<cfcontent type="text/html; charset=utf-8" />
+
 <!doctype html>
 <html>
 <head>
 	<title>Regular Expression Day 2012 (5th Annual!!)</title>
+
+	<!-- Fonts and styles. -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700"></link>
 	<link rel="stylesheet" type="text/css" href="./css/console.css"></link>
+
+	<!-- Libraries and modules. -->
 	<script type="text/javascript" src="./js/lib/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/lib/json2.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
 </head>
 <body>
+
+	<!-- Define the patterns to be used in the game. -->
+	<script id="patternData" type="text/plain">
+
+		Hello
+		Hel+o
+		(Dog|Cat)
+		Ba(na){2}
+		Ohm{3,5}
+		[aeiou]+
+		\W\w\W
+
+	</script>
+
 
 	<!-- BEGIN: Introduction View. -->
 	<div class="introduction">
@@ -45,7 +68,7 @@
 
 			<div class="timer">
 
-				Time Remaining: <span class="remaining">2:00</span>
+				Time Remaining: <span class="remaining">0:00</span>
 
 				<span class="reset">
 					( <a href="##">Start Over</a> )
@@ -80,7 +103,7 @@
 				( Hit Enter Key )
 			</button>
 
-			<button class="skip">
+			<button type="submit" class="skip">
 				Skip
 			</button>
 

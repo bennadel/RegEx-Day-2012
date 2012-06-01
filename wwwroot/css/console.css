@@ -7,7 +7,7 @@ body {
 
 div.introduction {
 	background-color: #F0F0F0 ;
-	display: none ;
+	display: block ;
 	height: 400px ;
 	text-align: center ;
 	width: 545px ;
@@ -163,7 +163,7 @@ div.console > form.controls button.skip {
 
 div.gameOver {
 	background-color: #F0F0F0 ;
-	display: block ;
+	display: none ;
 	height: 400px ;
 	text-align: center ;
 	width: 545px ;
