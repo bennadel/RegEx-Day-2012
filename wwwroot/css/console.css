@@ -52,7 +52,7 @@ div.introduction > a.startPlaying {
 
 div.console {
 	background-color: #FFFFFF ;
-	display: block ;
+	display: none ;
 	position: relative ;
 	height: 400px ;
 	width: 545px ;
@@ -162,7 +162,86 @@ div.console > form.controls button.skip {
 	}
 
 div.gameOver {
-	display: none ;
+	background-color: #F0F0F0 ;
+	display: block ;
+	height: 400px ;
+	text-align: center ;
+	width: 545px ;
 	}
+
+div.gameOver > h1.score {
+	font-size: 40px ;
+	font-weight: 800 ;
+	margin: 0px 0px 30px 0px ;
+	padding-top: 30px ;
+	}
+
+div.gameOver > h1.score span.matchCount {
+	color: #FF3366 ;
+	}
+
+div.gameOver > p.rules {
+	font-size: 18px ;
+	margin: 10px 0px 15px 0px ;
+	}
+
+div.gameOver > form.contactInfo {
+	margin: 0px auto 0px auto ;
+	text-align: left ;
+	width: 350px ;
+	}
+
+div.gameOver > form.contactInfo div.fields {}
+
+div.gameOver > form.contactInfo label {
+	display: block ;
+	font-size: 18px ;
+	font-weight: 600 ;
+	margin: 0px 0px 5px 0px ;
+	}
+
+div.gameOver > form.contactInfo input {
+	display: block ;
+	font-size: 18px ;
+	margin: 7px 0px 17px 0px ;
+	width: 340px ;
+	}
+
+div.gameOver > form.contactInfo div.actions {
+	line-height: 38px ;
+	margin-top: 25px ;
+	}
+
+div.gameOver > form.contactInfo button.submit {
+	background-color: #FF3366 ;
+	border: 1px solid #333333 ;
+	color: #FFFFFF ;
+	display: inline-block ;
+	font-size: 16px ;
+	font-weight: 600 ;
+	height: 40px ;
+	line-height: 38px ;
+	width: 150px ;
+	}
+
+div.gameOver > form.contactInfo span.startOver {
+	color: #999999 ;
+	display: inline-block ;
+	font-size: 16px ;
+	margin-left: 10px ;
+	}
+
+div.gameOver > form.contactInfo span.startOver a {
+	color: #999999 ;
+	}
+
+
+
+
+
+
+
+
+
 
 

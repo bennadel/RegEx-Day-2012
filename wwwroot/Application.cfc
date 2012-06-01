@@ -9,5 +9,11 @@
 	<cfset this.applicationTimeout = createTimeSpan( 0, 1, 0, 0 ) />
 	<cfset this.sessionManagement = false />
 
+	<!--- Set page request settings. --->
+	<cfsetting 
+		showdebugoutput="false"
+		requesttimeout="10"
+		/>
+
 
 </cfcomponent>

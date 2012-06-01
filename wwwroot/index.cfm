@@ -92,9 +92,71 @@
 
 	<!-- BEGIN: Gave Over View. -->
 	<div class="gameOver">
-		Thanks for playing!
+		
+		<h1 class="score">
+			You Matched <span class="matchCount">0</span> Patterns!
+		</h1>
+
+		<p class="rules">
+			Please enter your name and email address for a chance to win!
+		</p>
+
+		<form class="contactInfo">
+
+			<div class="fields">
+
+				<label>
+					Your Name:
+				</label>
+
+				<input type="text" name="name" class="name" />
+
+				<label>
+					Your Email:
+				</label>
+
+				<input type="email" name="email" class="email" />
+
+			</div>
+
+			<div class="actions">
+
+				<button type="submit" class="submit">
+					Submit Info
+				</button>
+
+				<span class="startOver">
+					Or, 
+					<a href="##">Play again</a>
+				</span>
+
+			</div>
+
+		</form>
+
+
 	</div>
 	<!-- END: Gave Over View. -->
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
