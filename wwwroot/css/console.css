@@ -1,0 +1,168 @@
+
+body {
+	font-family: "Yanone Kaffeesatz" ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+
+div.introduction {
+	background-color: #F0F0F0 ;
+	display: none ;
+	height: 400px ;
+	text-align: center ;
+	width: 545px ;
+	}
+
+div.introduction > h1 {
+	font-size: 40px ;
+	font-weight: 800 ;
+	margin: 0px 0px 10px 0px ;
+	padding-top: 35px ;
+	}
+
+div.introduction > p.subHeader {
+	font-size: 16px ;
+	margin: 0px 0px 30px 0px ;
+	}
+
+div.introduction > h2 {
+	font-size: 32px ;
+	margin: 0px 0px 10px 0px ;
+	}
+
+div.introduction > p.goal {
+	font-size: 18px ;
+	line-height: 26px ;
+	margin: 0px auto 25px auto ;
+	width: 400px ;
+	}
+
+div.introduction > a.startPlaying {
+	background-color: #FF3366 ;
+	border: 1px solid #333333 ;
+	color: #FFFFFF ;
+	display: block ;
+	font-size: 24px ;
+	font-weight: 600 ;
+	height: 50px ;
+	line-height: 50px ;
+	margin: 0px auto 0px auto ;
+	width: 150px ;
+	}
+
+div.console {
+	background-color: #FFFFFF ;
+	display: block ;
+	position: relative ;
+	height: 400px ;
+	width: 545px ;
+	}
+
+div.console > div.headsup {
+	background-color: #F0F0F0 ;
+	border-bottom: 1px solid #CCCCCC ;
+	height: 50px ;
+	position: absolute ;
+	left: 0px ;
+	right: 0px ;
+	top: 0px ;
+	z-index: 10 ;
+	}
+
+div.console > div.headsup div.timer {
+	font-size: 26px ;
+	left: 10px ;
+	line-height: 48px ;
+	position: absolute ;
+	top: 0px ;
+	}
+
+div.console > div.headsup div.timer span.remaining {
+	color: #FF3366 ;
+	}
+
+div.console > div.headsup div.timer span.reset {
+	color: #999999 ;
+	display: inline-block ;
+	font-size: 16px ;
+	font-weight: 100 ;
+	margin-left: 5px ;
+	}
+
+div.console > div.headsup div.timer span.reset a {
+	color: #999999 ;
+	}
+
+div.console > div.headsup div.score {
+	font-size: 26px ;
+	line-height: 48px ;
+	position: absolute ;
+	right: 10px ;
+	top: 0px ;
+	}
+
+div.console > div.headsup div.score span.matchCount {
+	color: #FF3366 ;
+	font-weight: 600 ;
+	}
+
+div.console > div.currentPattern {
+	height: 400px ;
+	line-height: 390px ;
+	font-size: 48px ;
+	text-align: center ;
+	z-index: 1 ;
+	}
+
+div.console > div.currentPattern span.boundary {
+	color: #CCCCCC ;
+	}
+
+div.console > form.controls {
+	background-color: #F0F0F0 ;
+	border-top: 1px solid #CCCCCC ;
+	bottom: 0px ;
+	height: 65px ;
+	left: 0px ;
+	position: absolute ;
+	right: 0px ;
+	z-index: 10 ;
+	}
+
+div.console > form.controls input.input {
+	border: 1px solid #AAAAAA ;
+	font-size: 22px ;
+	height: 35px ;
+	left: 10px ;
+	padding: 4px 0px 4px 0px ;
+	position: absolute ;
+	text-align: center ;
+	top: 10px ;
+	width: 335px ;
+	}
+
+div.console > form.controls button.submit {
+	height: 45px ;
+	left: 355px ;
+	position: absolute ;
+	top: 10px ;
+	width: 120px ;
+	}
+
+div.console > form.controls button.submit strong {}
+
+div.console > form.controls button.skip {
+	background-color: #F0F0F0 ;
+	border: 1px solid #CCCCCC ;
+	height: 45px ;
+	position: absolute ;
+	right: 10px ;
+	top: 10px ;
+	width: 45px ;
+	}
+
+div.gameOver {
+	display: none ;
+	}
+
+
