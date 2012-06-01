@@ -28,6 +28,61 @@
 		Ohm{3,5}
 		[aeiou]+
 		\W\w\W
+		[0-9]
+		[\d]{5}
+		(o)tt\1
+		Gre(e|a)t
+		((\w)\2)\1
+		boo(?=yaa)ya+
+		\w+\b.{2,}
+		fun[nk]y
+		p(ow)w\1
+		M(iss)\1ippi
+		\d\d\d
+		\D\D\D
+		(m(a|ea|ee)t)
+		Johnny \d
+		\w\s\w
+		\w.\w.\w
+		ta(s|n)k
+		Sweet!!?
+		(B)?eat
+		on(Click|Submit)
+		\\b
+		(20)\d{2}
+		Mwa(ha)+?
+		[RM][Aa][n]
+		M(o)o{2}\1
+		tush(ie|y)
+		\w\w\w\s\d\d\d
+		\S\s\S
+		[a-z]+[0-9a-z]+
+		(try|try not) do
+		for-(each|in)
+		c[o]{2}kie
+		foo( bar)+
+		[\[]OMG[\]]
+		M(o)(\1|u)se
+		Br[ai]c
+		[1-3][4-6][07-9]
+		(what){2}
+		B(oo)h\1
+		Free(dom){0,1}
+		\d:\d\d(am|pm)
+		z((o)\2)mz\1m
+		(F|M)ellow
+		.\b..\b.
+		\boo\b
+		(can){2,}?
+		[\[\w\]]+
+		(?=...bell)cow
+		(on)?error
+		cold ?fusion
+		Java(Script)?
+		Buz{3}
+		Ca(r|t)
+		camp{0}
+		Spo(o)\1+n!
 
 	</script>
 
@@ -163,23 +218,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

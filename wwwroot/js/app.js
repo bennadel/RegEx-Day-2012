@@ -81,12 +81,17 @@ $(function(){
 		// a random one) when the game starts.
 		function shufflePatterns(){
 
-			// Shuffle the patterns randomly.
-			patterns.sort(
-				function(){
-					return( (Math.random() > .5) ? 1 : -1 );
-				}
-			);
+			// Shuffle a number of times.
+			for (var i = 0 ; i < 100 ; i++){
+
+				// Shuffle the patterns randomly.
+				patterns.sort(
+					function(){
+						return( (Math.random() > .5) ? 1 : -1 );
+					}
+				);
+
+			}
 
 		}
 
@@ -254,7 +259,7 @@ $(function(){
 		// Get the pattern data and break it up in a list of patterns.
 		var patterns = dom.patternData.html()
 			.replace( /^\s+|\s+$/gi , "" )
-			.split( /\s+/gi )
+			.split( /[\t\r\n]+/gi )
 		;
 
 		// Keep track of the current pattern.
@@ -311,6 +316,9 @@ $(function(){
 
 				// Hide the view.
 				dom.target.hide();
+
+				// Make sure game is stopped.
+				stopGame();
 
 			},
 
@@ -516,23 +524,4 @@ $(function(){
 	);
 
 
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
