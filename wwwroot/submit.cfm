@@ -7,15 +7,7 @@
 
 
 <!--- Email the form data. --->
-<cfmail
-	to="ben@bennadel.com"
-	from="blog@bennadel.com"
-	subject="RegEx Day Submission"
-	type="plain">
-
-	<cfdump var="#form#" show="name,email,matchCount,gameData" format="text" />
-
-</cfmail>
+<!--- .... Process data .... --->
 
 
 <!--- Stream a response back to the client. --->
